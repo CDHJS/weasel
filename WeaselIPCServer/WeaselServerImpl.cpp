@@ -157,7 +157,7 @@ int ServerImpl::Start() {
 int ServerImpl::Stop() {
   // DO NOT exit process or finalize here
   // Let WeaselServer handle this
-  PostMessage(WM_QUIT);
+  // PostMessage(WM_QUIT);
   return 0;
 }
 
